@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+body {
+    font-family: 'Lobster', cursive;
+    margin: 0;
+
+
+}
+.container {
+  margin: 30px 200px 200px 200px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section {
+  width: 100%;
+}
+.section > h2 {
+  line-height: 15px;
+}
+.section > p {
+    width: 300px;
+    text-align:left;
+    color: deepskyblue;
+}
+.a{
+    color:gold;
+
+}
+.b{
+    color: lawngreen;
+}
+.c{
+    color: mediumblue;
+}
+.d{
+    color:blue;
+}
+#style{
+    font-size: 48px;
+    color: lawngreen;
+}
+.spanColor {
+  color:magenta;
+}
+.img {
+  width: 75%;
+}
+.mainBtn {
+  background: linear-gradient(hotpink,skyblue);
+  outline: none;
+  border-radius: 20px;
+  padding: 10px 10px;
+  color: white;
+  cursor: pointer;
+}
+.aboutMeSection {
+  background-image: url("data:image/jpeg;base64,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");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.feel {
+  width: 150%;
+}
+.myRecipies > h1,
+p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.card {
+  border-radius: 10px;
+  box-shadow: 1px 0.5px 5px deepskyblue;
+  padding: 5px;
+  margin: 10px;
+  margin-bottom: 50px;
+}
+.alignCenter {
+  text-align: center;
+  font-size: 16px;
+  
+}
+.mainDiv {
+    color:orangered;
+  margin: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.shadow {
+  box-shadow: 1px 0.5px 5px gray;
+  border-radius: 10px;
+}
+.footer {
+  background:peachpuff;
+  color:blueviolet;
+  padding: 1px;
+}
